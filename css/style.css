@@ -1,6 +1,68 @@
-*{
+*,
+*::before,
+*::after{
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
+    text-align: center;
 }
 
+
+
+
+.entry{
+    margin: auto;
+    width: 320px;
+    background-color: black;
+    padding-top: 40px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    
+    
+}
+
+.entry input{
+    width: 260px;
+    height: 70px;
+    margin-bottom: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.cal div{
+    margin: auto;
+    width: 320px;
+    background-color: black;
+    padding: 10px;
+    padding-inline: 20px;
+    
+}
+
+.cal .lastrow{
+    margin-bottom: 30px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding-bottom: 35px;
+}
+
+
+button{
+    background-color: #7fc4d7; /* Green */
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 5px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.cal{
+    margin: auto;
+    padding-block: 20px;
+}
