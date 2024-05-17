@@ -8,5 +8,43 @@
 </head>
 <body>
     <h1>Awodwa's Calculator</h1>
+    <div class="cal">
+        <form class="entry">
+            <input class="input" type="text">
+        </form>
+        <div>
+            <button class="button9" onclick="clearSum()">CE</button>
+            <button class="button10" onclick="display('^')">^</button>
+            <button class="button11" onclick="display('9')">M</button>
+            <button class="button12" onclick="display('%')">%</button>
+        </div>
+        <div>
+            <button class="button9" onclick="display('7')">7</button>
+            <button class="button10" onclick="display('8')">8</button>
+            <button class="button11" onclick="display('9')">9</button>
+            <button class="button12" onclick="display('+')">+</button>
+        </div>
+        <div>
+            <button class="button5" onclick="display('4')">4</button>
+            <button class="button6" onclick="display('5')">5</button>
+            <button class="button7" onclick="display('6')">6</button>
+            <button class="button8" onclick="display('-')">-</button>
+        </div>
+        <div>
+            <button class="button9" onclick="display('1')">1</button>
+            <button class="button10" onclick="display('2')">2</button>
+            <button class="button11" onclick="display('3')">3</button>
+            <button class="button12" onclick="display('*')">x</button>
+        </div>
+
+        <div class="lastrow">
+            <button class="button13" onclick="display('.')">.</button>
+            <button class="button14" onclick="display('0')">0</button>
+            <button class="button15" onclick="result()">=</button>
+            <button class="button16" onclick="display('/')">÷</button>
+        </div>
+    </div>
+
+    <script src="script/main.js"></script>
 </body>
 </html>
